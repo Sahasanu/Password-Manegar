@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import Navbar from '../components/navbar'
-import Passinput from '../components/passinput'
+import Navbar from "./components/navbar"
+import Passinput from "./components/manegar"
+
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <div className='container w-screen h-screen'>
         <Navbar/>
         <Passinput/>
+      
       </div></div>
       </>
   )
